@@ -26,7 +26,7 @@ const clicou = () => {
     localStorage.setItem("Name", user.username);
     localStorage.setItem("Password", user.password);
     alert("Cadastro feito com sucesso!");
-    /*location.replace("index.html");*/
+    location.replace("index.html");
   } else {
     alert("As senhas devem ser iguais!");
   }

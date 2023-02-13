@@ -22,6 +22,7 @@ const clicou = () => {
     localStorage.getItem("Password") == user.password
   ) {
     alert("Logou.");
+    location.replace("logOut.html");
   } else {
     alert("Credenciais inválidas ou não existentes!");
   }
